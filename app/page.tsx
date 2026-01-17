@@ -74,7 +74,7 @@ export default function Home() {
               Our Package
             </h2>
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto font-light leading-relaxed">
-              Choose the perfect package for your business needs
+              Get everything you need for your professional website
             </p>
           </div>
 
