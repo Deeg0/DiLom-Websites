@@ -23,7 +23,7 @@ export default function Home() {
                 Home
               </a>
               <a href="#packages" className="text-gray-700 dark:text-gray-300 hover:text-[#008080] dark:hover:text-[#008080] font-medium transition-colors">
-                Packages
+                Package
               </a>
               <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-[#008080] dark:hover:text-[#008080] font-medium transition-colors">
                 About
@@ -59,19 +59,19 @@ export default function Home() {
                 href="#packages"
                 className="inline-block px-8 py-4 bg-[#008080] text-white rounded-xl font-semibold text-lg hover:bg-[#006666] transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
               >
-                View Packages →
+                View Package →
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Packages Section */}
+      {/* Package Section */}
       <section id="packages" className="relative px-4 py-16 md:py-24 lg:py-32 scroll-mt-20">
         <div className="max-w-7xl mx-auto">
           <div className="text-center space-y-8 mb-16">
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white tracking-tight">
-              Our Packages
+              Our Package
             </h2>
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto font-light leading-relaxed">
               Choose the perfect package for your business needs
