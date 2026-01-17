@@ -54,13 +54,19 @@ export default function Home() {
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto font-light leading-relaxed">
               Transform your business presence with expertly crafted websites designed to elevate your brand and drive results
             </p>
-            <div className="pt-6">
+            <div className="pt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
                 href="#packages"
                 className="inline-block px-8 py-4 bg-[#008080] text-white rounded-xl font-semibold text-lg hover:bg-[#006666] transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
               >
                 View Package →
               </a>
+              <Link
+                href="/example-1"
+                className="inline-block px-8 py-4 bg-transparent border-2 border-[#008080] text-[#008080] dark:text-[#008080] rounded-xl font-semibold text-lg hover:bg-[#008080] hover:text-white transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+              >
+                View Example →
+              </Link>
             </div>
           </div>
         </div>
@@ -99,7 +105,7 @@ export default function Home() {
                     <svg className="w-6 h-6 text-[#008080] mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="text-gray-700 dark:text-gray-300 text-base">1–3 pages (Home, About, Contact)</span>
+                    <span className="text-gray-700 dark:text-gray-300 text-base">1–10 pages (Home, About, Contact)</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-[#008080] mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
