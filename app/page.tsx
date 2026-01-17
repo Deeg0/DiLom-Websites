@@ -91,7 +91,7 @@ export default function Home() {
                   <div className="flex items-baseline">
                     <span className="text-6xl font-bold text-gray-900 dark:text-white">$700</span>
                   </div>
-                  <p className="text-gray-500 dark:text-gray-400 mt-2 text-sm">One-time payment</p>
+                  <p className="text-gray-500 dark:text-gray-400 mt-2 text-sm">One-time payment • Accept CashApp, PayPal, and Venmo</p>
                 </div>
 
                 <ul className="space-y-4 mb-10 text-left">
@@ -136,6 +136,12 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                     </svg>
                     <span className="text-gray-700 dark:text-gray-300 text-base">Testimonials or client reviews section</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="w-6 h-6 text-[#008080] mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span className="text-gray-700 dark:text-gray-300 text-base">Custom domain setup included</span>
                   </li>
                 </ul>
 
